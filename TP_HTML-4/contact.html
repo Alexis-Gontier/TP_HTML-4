@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone SPA</title>
+
+    <!-- LINKS CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/normalize.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- LINK FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- LINK FAVICON -->
+    <link rel="shortcut icon" href="assets/img/logo.webp" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <a href="#"><img src="assets/img/logo.webp" alt="logo zone spa"></a>            
+            <div class="nav-links">
+                <a href="#"><i class="fa-solid fa-water-ladder"></i><span>Espaces</span></a>
+                <a href="#"><i class="fa-regular fa-clock"></i><span>Horraires</span></a>
+                <a href="#"><i class="fa-regular fa-credit-card"></i><span>Tarifs</span></a>
+                <a href="contact.html" id="active"><i class="fa-regular fa-envelope"></i><span>Contact</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- TABLEAU -->
+    <section class="tableau">
+        <h2>Réservez votre créneau massage</h2>
+
+        <table>
+            <thead>
+              <tr>
+                <th colspan="3">Session découverte de 45 minutes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="d">05 Janvier 2024</td>
+                <td class="center">15h30</td>
+                <td class="center r">Réserver ce créneau</td>
+              </tr>
+              <tr>
+                <td class="d">10 Janvier 2024</td>
+                <td class="center">16h30</td>
+                <td class="center r">Réserver ce créneau</td>
+              </tr>
+              <tr>
+                <td class="d">15 Janvier 2024</td>
+                <td class="center">15h30</td>
+                <td class="center r">Réserver ce créneau</td>
+              </tr>
+              <tr>
+                <td class="d">20 Janvier 2024</td>
+                <td class="center">16h30</td>
+                <td class="center r">Réserver ce créneau</td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+
+    <!-- FORM CONTACT -->
+    <section class="contact">
+
+        <h3>Pour valider votre reservation, completer ce formulaire :</h3>
+
+        <form action="post">
+
+            <input type="text" placeholder="Votre prénom">
+            <input type="text" placeholder="Votre nom">
+            
+            <input type="text" placeholder="Adresse mail">
+
+            <h4>Quels sont les raisons de votre venue ?</h4>
+
+            <input type="radio" name="fidelite" id="r1" value="Oui">
+            <label for="r1">Oui</label>
+            
+            <input type="radio" name="fidelite" id="r2" value="Non">
+            <label for="r2">Non</label>
+
+            <h4>Comment avez-vous connu notre SPA ?</h4>
+
+            <select name="dest" id="dest">
+                <option value="INT">Internet</option>
+                <option value="BaO">Bouche à oreille</option>
+                <option value="AUT">Autre</option>
+            </select>
+
+        </form>
+
+        
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; Copyright - Zone SPA - 2023</p>
+    </footer>
+
+</body>
+</html>
